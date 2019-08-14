@@ -1,0 +1,21 @@
+
+.nosotros h1{
+  font-size: 2.5em;
+  color: #FFF;
+  font-weight: 900;
+  font-style: italic;
+  text-shadow: 2px 2px 5px rgb(140, 140, 140);
+}
+.nosotros{
+  font-family: 'Parisienne', cursive;
+  font-size: 1.5em;
+  color:#C60;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (max-width: 1090px){
+  .nosotros h1{
+    font-size: 2em; 
+  }
+}

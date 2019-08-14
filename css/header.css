@@ -1,0 +1,65 @@
+#navContainer{
+  width: 100%;
+}
+
+#barraNav{
+  padding: 0 25px;
+}
+
+#navRedes li{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.navbar{
+  width: 100%;
+  margin-bottom:0px;
+}
+
+.bg-light{
+  background-color: rgb(50, 50, 48) !important;
+}
+
+.navbar-light a{
+  color: #fff !important;
+  font-size: 0.9em;
+  font-family: serif;
+}
+
+.navbar-light a:hover{
+  color: #c60 !important;
+}
+
+.dropdown-menu{
+  padding: 0;
+  background-color:rgb(50, 50, 48);
+  border:none;
+}
+
+.dropdown-item{
+  text-align: center;
+}
+
+.dropdown-item:hover{
+  background-color: transparent;
+}
+
+.navbar-collapse{
+  margin:auto;
+  text-align: center;
+}
+
+
+
+#botonNav{
+  background-color: #fff;
+  margin-right: 7px;
+}
+
+
+
+@media (max-width: 991px) {
+  .navbar-collapse{
+    padding-left:0;
+  }
+}

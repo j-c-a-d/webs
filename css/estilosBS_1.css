@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.borde{
+  height: 200px;
+  background-color: gray;
+}
+
+.borde1{
+  background-color: aquamarine;
+  height: 50px;
+  text-align: center;
+}
+
+.borde2{
+  height: 50px;
+  text-align: center;
+  background-color:olivedrab;
+}
+
+.borde3{
+  height: 50px;
+  text-align: center;
+  background-color: orangered;
+}

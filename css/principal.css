@@ -1,0 +1,147 @@
+/* Slider */
+#slider-1{
+  max-width: 960px;
+  margin:30px 0;
+  width: 100%;
+}
+
+#slider-1 img{
+  height: 400px;
+
+}
+
+
+.carousel{
+  margin: auto;
+
+}
+
+#imglogo{
+  border-radius:50%;
+  border:3px solid #c60;
+  margin-top:90px;
+}
+
+#portada{
+margin:50px auto;
+}
+
+.subtitulos{
+   color:white;
+   font-size: 3em;
+   text-align: center;
+   font-family: 'Parisienne', cursive;
+   border: 1px solid #c60;
+   border-left:none;
+   border-right: none;
+   background:linear-gradient(to bottom , #333, #111);
+   height: 80px;
+   text-shadow: -1px 1px 4px  rgb(184, 177, 177);
+   }
+
+.subtitulos a{
+  color:white;
+  text-decoration: none;
+}
+
+.fotos{
+margin-top:50px;
+margin-bottom: 50px;
+}
+
+.fotos img{
+  border: 4px solid #c60;
+  border-radius: 20px;
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+}
+
+
+
+#nosotros .card-title{
+  font-family: 'Parisienne', cursive;
+  font-size: 2em;
+  color:#C60;
+  font-weight: bold;
+}
+
+.card-text{
+  font:1.2em Josefin Sans;
+  line-height: 150%;
+
+}
+
+.card-body{
+    background: linear-gradient(to bottom, #fff, #c60) no-repeat;
+}
+
+.card a{
+  font-size: 1em;
+}
+
+#cardPedidos{
+  max-width: 500px;
+  margin:30px auto;
+
+}
+
+#cardPedidos .card-body{
+  width: 100%;
+}
+
+#cardPedidos h5{
+  color:rgb(244, 43, 7);
+  font-weight: bold;
+  font-family: 'Bree Serif', serif;
+  font-size: 1.5em;
+}
+
+#cardPedidos .btn{
+  width: 200px;
+  background-color:rgb(29, 190, 9);
+  border: 1px solid rgb(83, 85, 89);
+}
+
+#cardPedidos .btn-primary{
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+
+#tituloPedidos{
+  color:#000;
+  text-align: center;
+  font:3.6em bold, fuentetitulos;
+  height: 80px;
+  text-shadow: -1px 1px 4px  rgb(184, 177, 177);
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1090px){
+  .fotos img{
+    width: 250px;
+    height: 200px
+  }
+}
+
+
+@media (max-width: 600px) {
+  #slider-1 img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 410px) {
+  .subtitulos span{
+    font-size: 0.7em;
+  }
+  #imglogo{
+  width: 220px;
+  height: 210px;
+}
+#cardPedidos h5{
+  font-size: 1em;
+}
+
+}
